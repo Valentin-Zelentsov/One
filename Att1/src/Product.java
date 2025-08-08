@@ -22,8 +22,9 @@ public class Product {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Product product = (Product) o;
-        return Objects.equals(name, product.name);
+        return (this.name.equals(product.name));
     }
+
 
     @Override
     public int hashCode() {
