@@ -5,14 +5,15 @@ import java.util.*;
 // щелкните значок <icon src="AllIcons.Actions.Execute"/> в боковой области.
 public class App {
 
+
+    // https://github.com/Valentin-Zelentsov/One/tree/homeworks/homework07/homework07
+
     static HashMap<String,Product> products;
     static HashMap<String,Person> persons;
     static ArrayList<Person> personList = new ArrayList<>();
 
     public static void main(String[] args) {
 
-
-        //System.out.println(!"233453".matches("\\d*"));
 
         Scanner scanner = new Scanner(System.in);
 
@@ -66,6 +67,7 @@ public class App {
         {
             String[] nameAndCost = prodsDescr.split("=");
             Product prod = new Product(nameAndCost[0].trim(), Integer.parseInt(nameAndCost[1].trim()));
+            //Product prod = new DiscountProduct(nameAndCost[0].trim(), Integer.parseInt(nameAndCost[1].trim()),0.1,10);
             products.put(prod.getName(),prod);
         }
         return products;

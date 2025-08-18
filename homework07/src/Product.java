@@ -10,7 +10,7 @@ public class Product {
         if (name.length() < 3) {
             throw new Exception("Название продукта не может быть короче 3 символов");
         }
-        if (!name.matches("\\d*"))
+        if (name.matches("\\d*"))
         {
             throw new Exception("Название продукта не может содержать только цифры");
         }
