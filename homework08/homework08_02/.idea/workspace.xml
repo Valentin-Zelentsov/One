@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="908dac2d-baab-4a9a-bea3-d886418b955e" name="Список изменений" comment="">
+      <change afterPath="$PROJECT_DIR$/../homework08_03/src/PowerulSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework07/.gigaide/gigaide.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework07/.gigaide/gigaide.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../homework07/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../homework07/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="32WBam1O8qLdsbDYFJgZLyEUrSf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "homeworks/homework07",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/repo/One/Homeworks/homework08_02/src/Main.java",
+    "Приложение.Main.executor": "Run"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="уровень приложения" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Задача по умолчанию">
+      <changelist id="908dac2d-baab-4a9a-bea3-d886418b955e" name="Список изменений" comment="" />
+      <created>1757526515849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757526515849</updated>
+    </task>
+    <servers />
+  </component>
+</project>
