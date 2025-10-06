@@ -1,6 +1,10 @@
 package com.example.dungeon.model;
 
 public class Weapon extends Item {
+    public int getBonus() {
+        return bonus;
+    }
+
     private final int bonus;
 
     public Weapon(String name, int bonus) {

@@ -9,6 +9,20 @@ public class Room {
     private final List<Item> items = new ArrayList<>();
     private Monster monster;
 
+    public boolean isNeedKey() {
+        return needKey;
+    }
+
+    public void setNeedKey(boolean needKey) {
+        this.needKey = needKey;
+    }
+
+    private boolean needKey;
+
+    public String getDescription() {
+        return description;
+    }
+
     public Room(String name, String description) {
         this.name = name;
         this.description = description;
@@ -43,8 +57,24 @@ public class Room {
             sb.append("\nВ комнате монстр: ").append(monster.getName()).append(" (ур. ").append(monster.getLevel()).append(")");
         }
         if (!neighbors.isEmpty()) {
-            sb.append("\nВыходы: ").append(String.join(", ", neighbors.keySet()));
+
+            Set<String> neighborsStrSet = new HashSet<>();
+            for (Map.Entry<String, Room> entry : neighbors.entrySet()) {
+                String roomName = entry.getKey();
+                Room r = entry.getValue();
+                if (r.isNeedKey())
+                {
+                    roomName = "#" + roomName;
+                }
+                neighborsStrSet.add(roomName);
+            }
+            sb.append("\nВыходы: ").append(String.join(", ", neighborsStrSet));
         }
         return sb.toString();
+    }
+
+    @Override
+    public String toString() {
+        return "Room{}";
     }
 }
